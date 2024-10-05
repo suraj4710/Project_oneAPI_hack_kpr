@@ -12,6 +12,8 @@ Features
 
 Technologies Used
 
+    Intel oneAPI: Optimized for performance on Intel hardware.
+    Intel-Optimized Libraries: Utilizes Intel NumPy for enhanced performance in numerical computations.
     OpenCV: Used for video capture and displaying the live video feed.
     MediaPipe: Performs pose detection to analyze body language and classify postures, hand movements, and gestures.
     DeepFace: Detects emotions based on facial expressions.
@@ -32,7 +34,7 @@ Setup and Installation
   Install Dependencies
   Before running the project, install the necessary Python libraries. You can install them using pip:
 
-    pip install opencv-python mediapipe deepface SpeechRecognition librosa sounddevice numpy
+    pip install opencv-python mediapipe deepface SpeechRecognition librosa sounddevice intel-numpy
 
   Clone the Repository
   To clone the repository:
@@ -41,7 +43,7 @@ Setup and Installation
     cd Project_oneAPI_hack_kpr.git
 
   Running the Project
-  Once you have cloned the repository and installed the required dependencies, you can run the program using:
+  Once you have cloned the repository and installed the required dependencies, you can run the program with the intelpython3 interpreter using:
 
     python Final.py
 
